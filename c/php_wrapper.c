@@ -6,7 +6,7 @@
 #define PHP_WRAPPER_H
 
 #ifdef __cplusplus
-extern "C" {
+
 #endif
 
 void init_php(const char *ini_path, const char **extensions, int ext_count);
